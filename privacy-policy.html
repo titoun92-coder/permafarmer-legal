@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Politique de confidentialité – PermaFarmer</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #F8F8F8;
+      color: #111111;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #111111;
+      padding: 24px 32px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    header .logo {
+      width: 40px; height: 40px;
+      background: #1DB954;
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 20px;
+    }
+    header h1 {
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    header span {
+      color: #1DB954;
+      font-size: 13px;
+      display: block;
+      font-weight: 400;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 0 24px 80px;
+    }
+
+    .updated {
+      font-size: 13px;
+      color: #888;
+      margin-bottom: 32px;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      margin: 36px 0 10px;
+      color: #111111;
+      border-left: 4px solid #1DB954;
+      padding-left: 12px;
+    }
+
+    p { margin-bottom: 14px; font-size: 15px; }
+
+    ul {
+      margin: 0 0 14px 20px;
+      font-size: 15px;
+    }
+    ul li { margin-bottom: 6px; }
+
+    .card {
+      background: #ffffff;
+      border: 1px solid #E8E8E8;
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 14px;
+    }
+
+    .contact-box {
+      background: #111111;
+      color: #ffffff;
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 40px;
+    }
+    .contact-box h2 {
+      color: #ffffff;
+      border-left-color: #1DB954;
+      margin-top: 0;
+    }
+    .contact-box a { color: #1DB954; }
+
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: #aaa;
+      padding: 24px;
+      border-top: 1px solid #E8E8E8;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">🌱</div>
+  <div>
+    <h1>PermaFarmer</h1>
+    <span>Cultivez l'essentiel.</span>
+  </div>
+</header>
+
+<main>
+  <p class="updated">Dernière mise à jour : 1er juillet 2026</p>
+
+  <p>
+    La présente politique de confidentialité décrit la manière dont
+    <strong>ABCompany</strong> (ci-après « nous ») collecte, utilise et protège
+    les données personnelles des utilisateurs de l'application mobile
+    <strong>PermaFarmer</strong> (ci-après « l'Application »).
+  </p>
+
+  <!-- 1 -->
+  <h2>1. Responsable du traitement</h2>
+  <div class="card">
+    <p><strong>ABCompany</strong><br />
+    France<br />
+    Contact : <a href="mailto:contact@permafarmer.fr">contact@permafarmer.fr</a></p>
+  </div>
+
+  <!-- 2 -->
+  <h2>2. Données collectées</h2>
+  <p>Nous collectons uniquement les données nécessaires au fonctionnement de l'Application :</p>
+  <ul>
+    <li><strong>Compte utilisateur :</strong> adresse e-mail et mot de passe (authentification Firebase)</li>
+    <li><strong>Données de jardin :</strong> zones, plantes, dimensions, localisation de la ville (non GPS)</li>
+    <li><strong>Photos de plantes :</strong> images transmises à l'API Plant.id pour identification — non conservées sur nos serveurs</li>
+    <li><strong>Données météo :</strong> nom de ville transmis à OpenWeatherMap — aucune géolocalisation précise</li>
+    <li><strong>Données d'abonnement :</strong> gérées par RevenueCat et Google Play — nous n'avons jamais accès aux coordonnées bancaires</li>
+    <li><strong>Données techniques :</strong> logs anonymes Firebase pour la stabilité de l'Application</li>
+  </ul>
+
+  <!-- 3 -->
+  <h2>3. Finalités du traitement</h2>
+  <ul>
+    <li>Création et gestion de votre compte utilisateur</li>
+    <li>Fourniture des fonctionnalités de l'Application (jardin, scanner, calendrier, marketplace)</li>
+    <li>Identification de plantes via intelligence artificielle</li>
+    <li>Génération de plans de jardin personnalisés via IA (Claude Haiku – Anthropic)</li>
+    <li>Affichage des conditions météo locales</li>
+    <li>Gestion de l'abonnement Premium et des transactions</li>
+    <li>Amélioration et débogage de l'Application</li>
+  </ul>
+
+  <!-- 4 -->
+  <h2>4. Bases légales</h2>
+  <ul>
+    <li><strong>Exécution du contrat</strong> : fourniture des services demandés</li>
+    <li><strong>Consentement</strong> : pour les fonctionnalités optionnelles (météo, notifications)</li>
+    <li><strong>Intérêt légitime</strong> : sécurité et amélioration de l'Application</li>
+  </ul>
+
+  <!-- 5 -->
+  <h2>5. Partage des données</h2>
+  <p>Vos données peuvent être transmises aux sous-traitants suivants dans le strict cadre de leurs services :</p>
+  <ul>
+    <li><strong>Google Firebase</strong> (authentification, base de données, fonctions cloud) – USA – <a href="https://firebase.google.com/support/privacy" target="_blank">politique</a></li>
+    <li><strong>Anthropic / Claude</strong> (génération de plans de jardin par IA) – USA – <a href="https://www.anthropic.com/privacy" target="_blank">politique</a></li>
+    <li><strong>Plant.id / Kindwise</strong> (identification de plantes) – UE – <a href="https://web.plant.id/privacy-policy/" target="_blank">politique</a></li>
+    <li><strong>OpenWeatherMap</strong> (données météo) – UE – <a href="https://openweather.co.uk/privacy-policy" target="_blank">politique</a></li>
+    <li><strong>RevenueCat</strong> (gestion des abonnements) – USA – <a href="https://www.revenuecat.com/privacy" target="_blank">politique</a></li>
+  </ul>
+  <p>Nous ne vendons ni ne louons vos données personnelles à des tiers.</p>
+
+  <!-- 6 -->
+  <h2>6. Conservation des données</h2>
+  <ul>
+    <li>Données de compte : conservées jusqu'à la suppression du compte</li>
+    <li>Données de jardin : conservées jusqu'à suppression par l'utilisateur ou du compte</li>
+    <li>Photos transmises à Plant.id : non stockées au-delà de l'analyse</li>
+    <li>Logs techniques : 90 jours maximum</li>
+  </ul>
+
+  <!-- 7 -->
+  <h2>7. Vos droits (RGPD)</h2>
+  <p>Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez des droits suivants :</p>
+  <ul>
+    <li>Droit d'accès à vos données</li>
+    <li>Droit de rectification</li>
+    <li>Droit à l'effacement (« droit à l'oubli »)</li>
+    <li>Droit à la portabilité</li>
+    <li>Droit d'opposition et de limitation du traitement</li>
+  </ul>
+  <p>Pour exercer ces droits, contactez-nous à <a href="mailto:contact@permafarmer.fr">contact@permafarmer.fr</a>. Vous pouvez également introduire une réclamation auprès de la <a href="https://www.cnil.fr" target="_blank">CNIL</a>.</p>
+
+  <!-- 8 -->
+  <h2>8. Sécurité</h2>
+  <p>
+    Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger
+    vos données : chiffrement en transit (HTTPS/TLS), authentification sécurisée Firebase,
+    clés API stockées côté serveur (Cloud Functions), accès restreint aux données.
+  </p>
+
+  <!-- 9 -->
+  <h2>9. Mineurs</h2>
+  <p>
+    L'Application n'est pas destinée aux personnes de moins de 13 ans.
+    Nous ne collectons pas sciemment de données concernant des mineurs.
+  </p>
+
+  <!-- 10 -->
+  <h2>10. Modifications</h2>
+  <p>
+    Nous nous réservons le droit de modifier la présente politique à tout moment.
+    Toute modification substantielle sera notifiée dans l'Application.
+    La date de mise à jour figurant en haut de ce document fait foi.
+  </p>
+
+  <!-- Contact -->
+  <div class="contact-box">
+    <h2>Contact</h2>
+    <p>Pour toute question relative à cette politique ou à vos données personnelles :</p>
+    <p><a href="mailto:contact@permafarmer.fr">contact@permafarmer.fr</a></p>
+  </div>
+</main>
+
+<footer>
+  © 2026 ABCompany — PermaFarmer. Tous droits réservés.
+</footer>
+
+</body>
+</html>
