@@ -114,7 +114,7 @@ footer {
 </header>
 
 <main>
-  <p class="updated">Dernière mise à jour : 3 octobre 2026</p>
+  <p class="updated">Dernière mise à jour : 12 novembre 2026</p>
 
   <p>
     La présente politique de confidentialité décrit la manière dont
@@ -138,6 +138,7 @@ footer {
     <li><strong>Compte utilisateur :</strong> adresse e-mail et mot de passe (authentification Firebase)</li>
     <li><strong>Données de jardin :</strong> zones, plantes, dimensions, commune indiquée et coordonnées géographiques de cette commune — jamais votre adresse ni votre position GPS</li>
     <li><strong>Photos de plantes :</strong> images transmises à l'API Plant.id pour identification — non conservées sur nos serveurs</li>
+    <li><strong>Photos de diagnostic :</strong> lorsque vous demandez le diagnostic d'une plante, la photo prise (réduite, sans ses métadonnées : position GPS, date et appareil sont retirés avant l'envoi) est transmise à Anthropic (Claude) pour analyse, avec, si vous les avez choisis, le nom de la culture et de la planche. Nous ne la conservons pas : elle transite par nos serveurs le temps de l'analyse. Le résultat s'affiche à l'écran ; il n'est gardé dans votre journal, comme simple note, que si vous choisissez « Enregistrer dans le journal ». Les abonnés peuvent en plus joindre la photo à leur culture : elle est alors stockée dans votre espace personnel. Nous comptons le nombre de diagnostics du mois pour appliquer la limite d'usage</li>
     <li><strong>Données météo :</strong> nom de ville transmis à OpenWeatherMap — aucune géolocalisation précise</li>
     <li><strong>Annonces du marché :</strong> lorsque vous publiez une annonce, nous enregistrons son titre, sa description, sa catégorie, la commune que vous indiquez (avec les coordonnées géographiques de cette commune) et la coordonnée de contact que vous choisissez : un numéro de téléphone ou une adresse e-mail. Publier une annonce est facultatif</li>
     <li><strong>Jardiniers bloqués :</strong> si vous bloquez un jardinier, nous enregistrons ce choix dans votre compte afin de ne plus vous afficher ses annonces. Lui n'en est pas informé</li>
@@ -152,6 +153,7 @@ footer {
     <li>Création et gestion de votre compte utilisateur</li>
     <li>Fourniture des fonctionnalités de l'Application (jardin, scanner, calendrier, marché)</li>
     <li>Identification de plantes via intelligence artificielle</li>
+    <li>Aide au diagnostic d'une plante qui va mal (hypothèses et gestes à faire), par intelligence artificielle. C'est une aide, pas un avis d'expert</li>
     <li>Génération de plans de jardin, de conseils et de réponses de l'assistant via IA (Claude – Anthropic)</li>
     <li>Affichage des conditions météo locales</li>
     <li>Mise en relation des jardiniers qui proposent un don, un échange ou une vente avec ceux qui cherchent</li>
@@ -189,7 +191,7 @@ footer {
   <p>Vos données peuvent être transmises aux sous-traitants suivants dans le strict cadre de leurs services :</p>
   <ul>
     <li><strong>Google Firebase</strong> (authentification, base de données, fonctions cloud) – USA – <a href="https://firebase.google.com/support/privacy" target="_blank">politique</a></li>
-    <li><strong>Anthropic / Claude</strong> (plans de jardin, conseils et assistant par IA) – USA – <a href="https://www.anthropic.com/privacy" target="_blank">politique</a></li>
+    <li><strong>Anthropic / Claude</strong> (plans de jardin, conseils, assistant et diagnostic de plantes par IA, y compris la photo envoyée pour le diagnostic) – USA – <a href="https://www.anthropic.com/privacy" target="_blank">politique</a></li>
     <li><strong>Plant.id / Kindwise</strong> (identification de plantes) – UE – <a href="https://web.plant.id/privacy-policy/" target="_blank">politique</a></li>
     <li><strong>OpenWeatherMap</strong> (données météo) – UE – <a href="https://openweather.co.uk/privacy-policy" target="_blank">politique</a></li>
     <li><strong>RevenueCat</strong> (gestion des abonnements) – USA – <a href="https://www.revenuecat.com/privacy" target="_blank">politique</a></li>
@@ -204,6 +206,7 @@ footer {
     <li>Annonces du marché et coordonnée de contact : conservées jusqu'à ce que vous supprimiez l'annonce depuis « Mes annonces », ou jusqu'à la suppression de votre compte</li>
     <li>Blocages et signalements : effacés avec votre compte</li>
     <li>Photos transmises à Plant.id : non stockées au-delà de l'analyse</li>
+    <li>Photos transmises pour un diagnostic : non conservées par PermaFarmer. Elles ne le sont que si vous les joignez vous-même à une culture (Premium), jusqu'à ce que vous les supprimiez ou que vous supprimiez votre compte</li>
     <li>Logs techniques : 90 jours maximum</li>
   </ul>
 
